@@ -1,0 +1,1364 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Abdalah Hamwi - Software Engineer |PYTHON Developer</title>
+    <meta
+      name="title"
+      content="Abdalah Hamwi- Software Engineer | PYTHON Developer"
+    />
+    <meta
+      name="description"
+      content="Back End Engineer specializing in PYTHON, Django and modern web technologies. Building scalable applications with clean architecture and performance optimization."
+    />
+    <meta
+      name="keywords"
+      content="Software Engineer,PYTHON Developer,PYTHON, Django, Web API, Microservices, Portfolio, Back-End Developer"
+    />
+    <meta name="author" content="Abdalah Hamwi" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://abdalahhamwi.github.io/A-Hamwi/Portfolio/"
+    />
+    <meta
+      property="og:title"
+      content="Abdalah Hamwi - Software Engineer | PYTHON Developer"
+    />
+    <meta
+      property="og:description"
+      content="Software Engineer and PYTHON Developer Back End Engineer Specializing in PYTHON, Django and modern web technologies."
+    />
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta
+      http-equiv="Referrer-Policy"
+      content="strict-origin-when-cross-origin"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://cdn-icons-png.flaticon.com/512/9418/9418231.png"
+    />
+
+    <!-- External Resources -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: "#3b95f6",
+                dark: "#258feb",
+              },
+            },
+            animation: {
+              "fade-in": "fadeIn 1s ease-in-out",
+              "slide-up": "slideUp 0.6s ease-out",
+              "scale-in": "scaleIn 0.3s ease-out",
+            },
+            keyframes: {
+              fadeIn: {
+                "0%": {
+                  opacity: "0",
+                  transform: "translateY(20px)",
+                },
+
+                "100%": {
+                  opacity: "1",
+                  transform: "translateY(0)",
+                },
+              },
+              slideUp: {
+                "0%": {
+                  opacity: "0",
+                  transform: "translateY(30px)",
+                },
+
+                "100%": {
+                  opacity: "1",
+                  transform: "translateY(0)",
+                },
+              },
+              scaleIn: {
+                "0%": {
+                  opacity: "0",
+                  transform: "scale(0.9)",
+                },
+
+                "100%": {
+                  opacity: "1",
+                  transform: "scale(1)",
+                },
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body
+    class="bg-white dark:bg-gray-900 transition-bg text-gray-800 dark:text-gray-200 font-sans antialiased"
+  >
+    <!-- ===== SKIP TO MAIN CONTENT ===== -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary text-white px-4 py-2 rounded-md z-50"
+    >
+      Skip to main content
+    </a>
+
+    <!-- ===== HEADER & NAVIGATION ===== -->
+    <header
+      class="fixed w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm"
+      role="banner"
+    >
+      <nav class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+          <!-- Brand/Logo -->
+          <a
+            href="#home"
+            class="text-2xl font-bold text-primary dark:text-primary-dark md:-ml-6"
+          >
+            <span class="animate-fade-in">Abdalah Hamwi</span>
+          </a>
+
+          <!-- Desktop Navigation Menu -->
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+              >About</a
+            >
+            <a
+              href="#skills"
+              class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+              >Skills</a
+            >
+            <a
+              href="#projects"
+              class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+              >Projects</a
+            >
+            <a
+              href="#experience"
+              class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+              >Experience</a
+            >
+            <a
+              href="#education"
+              class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+              >Education</a
+            >
+            <a
+              href="#contact"
+              class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+              >Contact</a
+            >
+          </div>
+
+          <!-- Mobile menu button -->
+          <button
+            id="mobile-menu-button"
+            class="md:hidden p-2 rounded-full focus:outline-none"
+            aria-label="Toggle mobile menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <i
+              class="fas fa-bars text-gray-700 dark:text-gray-200"
+              aria-hidden="true"
+            ></i>
+          </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+          <a
+            href="#home"
+            class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+            >About</a
+          >
+          <a
+            href="#skills"
+            class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+            >Skills</a
+          >
+          <a
+            href="#projects"
+            class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+            >Projects</a
+          >
+          <a
+            href="#experience"
+            class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+            >Experience</a
+          >
+          <a
+            href="#education"
+            class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+            >Education</a
+          >
+          <a
+            href="#contact"
+            class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+            >Contact</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <main id="main-content" class="min-h-screen">
+      <section
+        id="home"
+        class="min-h-screen flex items-center justify-center pt-20 hero-section relative"
+        aria-label="Hero Section"
+      >
+        <!-- Particles Background -->
+        <div id="particles-js" class="absolute inset-0 w-full h-full"></div>
+
+        <!-- Hero Content -->
+        <div class="container mx-auto px-6 py-20 text-center relative z-10">
+          <div class="max-w-3xl mx-auto">
+            <!-- Main Heading -->
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 hero-title">
+              Hi, I'm <span class="neon-name">Abdalah Hamwi</span>
+            </h1>
+
+            <!-- Subtitle -->
+            <h2
+              class="text-2xl md:text-3xl font-bold text-gray-600 dark:text-gray-300 mb-8 hero-subtitle"
+            >
+              Software Engineer | PYTHON Developer | Back-End
+            </h2>
+
+            <!-- Description -->
+            <p
+              class="text-xl text-gray-500 dark:text-gray-300 mb-12"
+              style="animation: fadeInUp 1s ease-out 0.6s both"
+            >
+              I craft reliable and scalable backend systems where technology
+              meets precision. Building exceptional digital experiences through
+              modern backend development
+            </p>
+
+            <!-- Call-to-Action Buttons -->
+            <div class="flex flex-wrap justify-center gap-4">
+              <a
+                href="https://drive.google.com/file/d/12M6VNbrL1JJ4JuHpRJByfqKZlf7g80_f/view?usp=drivesdk"
+                target="_blank"
+                class="px-8 py-3 bg-primary hover:bg-primary-dark text-white rounded-full font-medium transition-all transform hover:scale-105 hero-button btn-primary"
+              >
+                View My CV
+              </a>
+              <a
+                href="#contact"
+                class="px-8 py-3 border-2 border-primary text-primary dark:text-primary-dark hover:bg-primary hover:text-white dark:hover:text-white rounded-full font-medium transition-all transform hover:scale-105 hero-button btn-primary"
+              >
+                Contact Me
+              </a>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="mt-8" style="animation: fadeInUp 1s ease-out 1s both">
+              <div class="flex justify-center space-x-6">
+                <a
+                  href="https://www.linkedin.com/in/abdalah-hamwi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon hover:scale-110 transition-all duration-300 transform"
+                  aria-label="LinkedIn Profile"
+                >
+                  <img
+                    src="https://www.iconpacks.net/icons/1/free-linkedin-icon-130-thumb.png"
+                    alt="LinkedIn"
+                    class="w-8 h-8"
+                  />
+                </a>
+                <a
+                  href="https://www.github.com/abdalahhamwi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:scale-110 transition-all duration-300 transform"
+                  aria-label="GitHub Profile"
+                >
+                  <i class="fab fa-github text-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== ABOUT SECTION ===== -->
+      <section
+        id="about"
+        class="py-20 bg-gray-100 dark:bg-gray-800 about-section"
+      >
+        <div class="container mx-auto px-1">
+          <!-- Section Header -->
+          <h2 class="text-3xl font-bold text-center mb-16">
+            <span
+              class="border-b-4 border-primary dark:border-primary-dark pb-2 text-5xl"
+              >About Me</span
+            >
+          </h2>
+
+          <div class="flex flex-col items-center gap-12">
+            <!-- About Content -->
+            <div class="md:w-2/3 px-4 md:px-0">
+              <h3 class="pl-4 md:pl-4 text-3xl font-semibold mb-4">
+                Back-End Developer
+              </h3>
+              <p
+                class="px-4 md:px-0 text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-xl"
+              >
+                I'm Abdalah Hamwi, a passionate BackEnd Engineer who loves
+                building seamless, high performance web experiences. I focus on
+                writing clean, reusable code and enjoy working with technologies
+                like Python, Django, PostgreSQL, and Django REST Framework. I'm
+                always learning and aiming to build meaningful and user-friendly
+                digital products.
+              </p>
+
+              <p
+                class="px-4 md:px-0 text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-xl"
+              >
+                Ive worked as a freelancer web Developer and BackEnd Developer
+                at Raizer, where I built strong and impactful projects.I
+                collaborated with developers from various nationalities, which
+                strengthened my communication and teamwork skills. These
+                experiences also helped me grow in problem-solving, performance
+                optimization, debugging, and API integration.
+              </p>
+              <br />
+              <p
+                class="px-4 md:px-0 text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-xl"
+              >
+                Im passionate about creating clean and scalable code that
+                delivers a seamless user experience.Im still building my
+                knowledge in algorithms, data structures, and UI design, and Im
+                eager to grow in these areas
+              </p>
+              <p
+                class="px-4 md:px-0 text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-xl"
+              >
+                Outside of coding, I participate in collective initiatives ,join
+                tech discussions, share experiences, and learn from others about
+                programming, communication, and real-world problem solving.
+              </p>
+
+              <br />
+              <p
+                class="px-4 md:px-0 text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-xl"
+              >
+                I also share content on LinkedIn about programming, tech
+                careers, books, sports, and life in general. I aim to share
+                value and inspire others on their learning journey.
+              </p>
+              <br />
+              <p
+                class="px-4 md:px-0 text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-xl"
+              >
+                I'm always working on improving my skills—not just in BackEnd,
+                but also by expanding my knowledge of Frontend development. I
+                have a good understanding of how the full web development cycle
+                works, and Im familiar with cloud technologies that help build
+                modern, scalable applications.
+              </p>
+              <br />
+              <p
+                class="px-4 md:px-0 text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-xl"
+              >
+                My journey in development has equipped me with expertise across
+                the entire stack, specializing in Python,Django and modern
+                technologies that deliver scalable, high performance
+                applications.
+              </p>
+              <br />
+              <p
+                class="px-4 md:px-0 text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-xl"
+              >
+                ✓ Development Philosophy
+                <br />
+                ✓ Clean, maintainable code as a foundation
+                <br />
+                ✓ Performance optimization from day one
+                <br />
+                ✓ Accessibility as a priority, not an afterthought
+                <br />
+                ✓ Reusable and scalable component structure
+                <br />
+                ✓ Continuous learning and adopting new tools
+              </p>
+              <br />
+
+              <br />
+              <!-- Contact Information -->
+              <div class="flex flex-wrap gap-4 px-4 md:px-0">
+                <div class="flex items-center">
+                  <i
+                    class="fas fa-map-marker-alt text-primary dark:text-primary-dark mr-2"
+                  ></i>
+                  <span class="text-xl">Damascus, Syria</span>
+                </div>
+                <div class="flex items-center">
+                  <i
+                    class="fas fa-envelope text-primary dark:text-primary-dark mr-2"
+                  ></i>
+                  <a
+                    href="mailto:abdalah09941@gmail.com"
+                    class="hover:text-primary dark:hover:text-primary-dark transition-colors text-xl"
+                  >
+                    abdalah09941@gmail.com
+                  </a>
+                </div>
+                <div class="flex items-center">
+                  <i
+                    class="fas fa-phone text-primary dark:text-primary-dark mr-2"
+                  ></i>
+                  <a
+                    href="tel:+963993051033"
+                    class="hover:text-primary dark:hover:text-primary-dark transition-colors text-xl"
+                  >
+                    +963993051033
+                  </a>
+                </div>
+                <div class="flex items-center">
+                  <i
+                    class="fab fa-linkedin text-primary dark:text-primary-dark mr-2"
+                  ></i>
+                  <a
+                    href="https://www.linkedin.com/in/abdalah-hamwi"
+                    target="_blank"
+                    class="hover:text-primary dark:hover:text-primary-dark transition-colors text-xl"
+                  >
+                    LinkedIn
+                  </a>
+                </div>
+                <div class="flex items-center">
+                  <i
+                    class="fab fa-github text-primary dark:text-primary-dark mr-2"
+                  ></i>
+                  <a
+                    href="https://www.github.com/abdalahhamwi"
+                    target="_blank"
+                    class="hover:text-primary dark:hover:text-primary-dark transition-colors text-xl"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SKILLS SECTION ===== -->
+      <section id="skills" class="py-20 skills-section">
+        <div class="container mx-auto px-6">
+          <!-- Section Header -->
+          <h2 class="text-3xl font-bold text-center mb-16">
+            <span
+              class="border-b-4 border-primary dark:border-primary-dark pb-2"
+              >Technical Skills</span
+            >
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Backend Development -->
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+            >
+              <div class="flex items-center mb-4">
+                <div
+                  class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                >
+                  <i class="fas fa-server text-xl skill-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold">Backend Development</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Python</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >OOP</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Gunicorn</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Django</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >REST APIs</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Django REST Framework</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Nginx</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Linux</span
+                >
+              </div>
+            </div>
+
+            <!-- Database & ORM Technologies -->
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+            >
+              <div class="flex items-center mb-4">
+                <div
+                  class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                >
+                  <i class="fas fa-database text-xl skill-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold">Database & ORM</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >SQ Lite</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >PostgreSQL</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >My SQL
+                </span>
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Django ORM</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Redis</span
+                >
+              </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+            >
+              <div class="flex items-center mb-4">
+                <div
+                  class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                >
+                  <i class="fas fa-users text-xl skill-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold">Soft Skills</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Teamwork</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Research</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Time Management</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Communication Skills</span
+                >
+              </div>
+            </div>
+
+            <!-- Version Control & Deployment -->
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+              style="
+                animation: 0.8s ease-out 0s 1 normal forwards running
+                  fadeInUpSimple;
+                opacity: 1;
+              "
+            >
+              <div class="flex items-center mb-4">
+                <div
+                  class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                >
+                  <i class="fas fa-rocket text-xl skill-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold">
+                  Version Control &amp; Deployment
+                </h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Git</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >GitHub</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >CI/CD (GitHub Actions)</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Docker</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Render</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >DigitalOcean</span
+                >
+              </div>
+            </div>
+
+            <!-- Frontend Technologies -->
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+              style="
+                animation: 0.8s ease-out 0s 1 normal forwards running
+                  fadeInUpSimple;
+                opacity: 1;
+              "
+            >
+              <div class="flex items-center mb-4">
+                <div
+                  class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                >
+                  <i class="fas fa-palette text-xl skill-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold">Frontend Technologies</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >HTML5</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >CSS3</span
+                >
+              </div>
+            </div>
+
+            <!-- Development Tools -->
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+              style="
+                animation: 0.8s ease-out 0s 1 normal forwards running
+                  fadeInUpSimple;
+                opacity: 1;
+              "
+            >
+              <div class="flex items-center mb-4">
+                <div
+                  class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                >
+                  <i class="fas fa-wrench text-xl skill-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold">Development Tools</h3>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Postman</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Swagger</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Jira</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Slack</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Black</span
+                >
+                <span
+                  class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                  >Prettier</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PROJECTS SECTION ===== -->
+      <section
+        id="projects"
+        class="py-20 bg-gray-100 dark:bg-gray-800 projects-section"
+      >
+        <div class="container mx-auto px-6">
+          <!-- Section Header -->
+          <h2 class="text-3xl font-bold text-center mb-16">
+            <span
+              class="border-b-4 border-primary dark:border-primary-dark pb-2"
+              >Featured Projects</span
+            >
+          </h2>
+
+          <!-- Projects Carousel Container -->
+          <div class="relative">
+            <div class="flex flex-col md:flex-row mb-8 space-y-8 md:space-y-0">
+              <!-- E-Commerce Online Shop API -->
+              <div class="flex-shrink-0 px-0 w-full md:w-1/2 md:-ml-8 md:mr-8">
+                <div
+                  class="dark:bg-gray-900 rounded-xl overflow-hidden shadow-md hover:shadow-lg \transition-shadow max-w-2xl"
+                >
+                  <div class="h-48 overflow-hidden">
+                    <img
+                      src="img/Ecommerce_OnlineShop.png"
+                      alt="E-Commerce Online Shop API"
+                      class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    />
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">
+                      E-Commerce Online Shop API
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                      I developed an integrated back-end system for an
+                      e-commerce store that focuses on efficiency and
+                      performance. The goal of the project was to build a robust
+                      e-commerce engine that supports complex business processes
+                      such as inventory management and order processing through
+                      flexible APIs that facilitate integration with any
+                      front-end.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Django REST Framework</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Python</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >API Integration</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Authentication</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >JWT</span
+                      >
+                    </div>
+                    <div class="flex space-x-4">
+                      <a
+                        href="https://github.com/abdalahhamwi/Ecommerce_API"
+                        target="_blank"
+                        class="text-primary dark:text-primary-dark hover:underline flex items-center mt-3"
+                      >
+                        <i class="fab fa-github mr-2"></i> View Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Furniture E-Commerce Platform -->
+              <div class="flex-shrink-0 px-0 w-full md:w-1/2">
+                <div
+                  class="dark:bg-gray-900 rounded-xl overflow-hidden shadow-md hover:shadow-lg \transition-shadow max-w-2xl"
+                >
+                  <div class="h-48 overflow-hidden">
+                    <img
+                      src="img/ComingSoon.avif"
+                      alt="Furniture E-Commerce Platform"
+                      class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    />
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">
+                      Furniture E-Commerce Platform (Coming Soon)
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                      Furniture E-Commerce Platform A Full-Stack Django Store
+                      with Cart, Ordernd Structure Lorem ipsum dolor sit amet.
+                      This project is a full-featured Furniture E-Commerce
+                      Platform built wind engineering using modern,
+                      production-ready technologies.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Python</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Docker</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Django</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Redis</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >PostgreSQL</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Django REST Framework</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Paymob</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Gmail SMTP</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >REST APIs</span
+                      >
+                    </div>
+                    <div class="flex space-x-4">
+                      <a
+                        href="https://github.com/abdalahhamwi"
+                        target="_blank"
+                        class="text-primary dark:text-primary-dark hover:underline flex items-center"
+                      >
+                        <i class="fab fa-github mr-2"></i> View Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex md:flex-row flex-col space-y-8 md:space-y-0">
+              <!-- Digital Library System -->
+              <div class="flex-shrink-0 px-0 w-full md:w-1/2 md:-ml-8 md:mr-8">
+                <div
+                  class="dark:bg-gray-900 rounded-xl overflow-hidden shadow-md hover:shadow-lg \transition-shadow max-w-2xl"
+                >
+                  <div class="h-48 overflow-hidden">
+                    <img
+                      src="img/Digital Library System.png"
+                      alt="Digital Library System"
+                      class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    />
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">
+                      Digital Library System
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                      Digital library management system with book
+                      cataloging,category organization, and borrowing return
+                      workflows.Implemented efficient data handling using Django
+                      ORM with ForeignKey relationships for linking books
+                      andcategories. Integrated AJAX for dynamic search,
+                      filtering, and real-time borrowing/return updates
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >AJAX</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Django Orm</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >SQL Lite</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Python</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Django</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >Render</span
+                      >
+                    </div>
+                    <div class="flex space-x-4">
+                      <a
+                        href="https://github.com/abdalahhamwi/Django-Digital-Library-System"
+                        target="_blank"
+                        class="text-primary dark:text-primary-dark hover:underline flex items-center mt-3"
+                      >
+                        <i class="fab fa-github mr-2"></i> View Code
+                      </a>
+                      <a
+                        href="https://django-digital-library-system.onrender.com/"
+                        target="_blank"
+                        class="text-primary dark:text-primary-dark hover:underline flex items-center mt-3"
+                      >
+                        <i class="fas fa-external-link-alt mr-2"></i> Live Demo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Job Board -->
+              <div class="flex-shrink-0 px-0 w-full md:w-1/2">
+                <div
+                  class="dark:bg-gray-900 rounded-xl overflow-hidden shadow-md hover:shadow-lg \transition-shadow max-w-2xl"
+                >
+                  <div class="h-48 overflow-hidden">
+                    <img
+                      src="img/job_board.png"
+                      alt="Job_Board"
+                      class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    />
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Job Board</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                      Job Board is a recruitment platform with user authentication, job posting browsing, and applying. Built with Django and DRF using CBV-based API featuring search, filtering, email notifications, and Celery/Redis. Fully containerized with Docker and powered by PostgreSQL.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                        >HTML5</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Bootstrap 4</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Gmail SMTP</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Python</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Django</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >PostgreSQL</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Docker</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Django REST Framework</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Redis</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Celery</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                        >Render</span
+                      >
+                    </div>
+                    <div class="flex space-x-4">
+                      <a
+                        href="https://github.com/abdalahhamwi/Django-job-Board"
+                        target="_blank"
+                        class="text-primary dark:text-primary-dark hover:underline flex items-center"
+                      >
+                        <i class="fab fa-github mr-2"></i> View Code
+                      </a>
+                      <a
+                        href="https://github.com/abdalahhamwi"
+                        target="_blank"
+                        class="text-primary dark:text-primary-dark hover:underline flex items-center"
+                      >
+                        <!-- <i class="fas fa-external-link-alt mr-2"></i> Live Demo -->
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== VIEW ALL PROJECTS SECTION ===== -->
+      <section class="bg-gray-100 dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+          <div class="flex justify-center">
+            <a
+              href="https://github.com/abdalahhamwi?tab=repositories"
+              target="_blank"
+              class="inline-block px-12 py-4 bg-primary hover:bg-primary-dark text-white rounded-full font-medium transition-all text-lg min-w-[200px] text-center"
+            >
+              View All Projects
+            </a>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+      </section>
+
+      <section id="experience" class="py-20 experience-section">
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl font-bold text-center mb-16">
+            <span
+              class="border-b-4 border-primary dark:border-primary-dark pb-2"
+              >Work Experience</span
+            >
+          </h2>
+
+          <div class="max-w-4xl mx-auto">
+            <div class="space-y-8 relative">
+              <div>
+                <div
+                  class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <div
+                    class="flex flex-col md:flex-row md:justify-between md:items-center mb-2"
+                  >
+                    <h3 class="text-xl font-semibold">BackEnd Developer</h3>
+                    <span
+                      class="text-primary dark:text-primary-dark font-medium"
+                      >Nov 2023 - Oct 2024</span
+                    >
+                  </div>
+                  <div
+                    class="flex items-center text-gray-600 dark:text-gray-400 mb-4"
+                  >
+                    <i class="fas fa-building mr-2"></i>
+                    <span>Raizer</span>
+                  </div>
+                  <p class="text-gray-600 dark:text-gray-300 text-l">
+                    Architected and developed scalable RESTful APIs using Django
+                    REST Framework (DRF) to support core application
+                    functionalities. Designed and optimized relational database
+                    schemas using PostgreSQL and Django ORM, ensuring efficient
+                    data querying and management. Implemented robust security
+                    measures, including JWT authentication and Role-Based Access
+                    Control , to safeguard sensitive user data. Investigated and
+                    resolved critical backend bugs and actively participated in
+                    code reviews, significantly enhancing overall system
+                    stability.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <div
+                    class="flex flex-col md:flex-row md:justify-between md:items-center mb-2"
+                  >
+                    <h3 class="text-xl font-semibold">
+                      Freelance Software Engineer
+                    </h3>
+                    <span
+                      class="text-primary dark:text-primary-dark font-medium"
+                      >Feb 2023 - Jul 2023</span
+                    >
+                  </div>
+                  <div
+                    class="flex items-center text-gray-600 dark:text-gray-400 mb-4"
+                  >
+                    <i class="fas fa-building mr-2"></i>
+                    <span>Upwork</span>
+                  </div>
+                  <p class="text-gray-600 dark:text-gray-300 text-l">
+                    Designed and deployed a platform for an international client
+                    using Django and PostgreSQL successfully. Organized the
+                    backend into modular Django apps to maintain clean,
+                    scalable, and maintainable code. Integrated Celery & Redis
+                    for asynchronous background tasks and automated email
+                    services. Collaborated remotely with international clients,
+                    meeting deadlines and delivering high quality solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== EDUCATION SECTION ===== -->
+      <section
+        id="education"
+        class="py-20 bg-gray-100 dark:bg-gray-800 education-section"
+      >
+        <div class="container mx-auto px-6">
+          <!-- Section Header -->
+          <h2 class="text-3xl font-bold text-center mb-16">
+            <span
+              class="border-b-4 border-primary dark:border-primary-dark pb-2"
+              >Education</span
+            >
+          </h2>
+
+          <div class="max-w-4xl mx-auto">
+            <!-- Education -->
+            <div
+              class="bg-white dark:bg-gray-700 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div class="flex items-center mb-6">
+                <div
+                  class="p-4 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-6"
+                >
+                  <i class="fas fa-graduation-cap text-2xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-semibold">
+                    Software Engineering and Information Systems
+                  </h3>
+                  <p class="text-xl text-gray-600 dark:text-gray-300">
+                    Damascus University
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex items-center text-gray-600 dark:text-gray-400 mb-4 text-lg"
+              >
+                <i class="far fa-calendar-alt mr-3"></i>
+                <span>Sep 2018 - Jun 2023</span>
+              </div>
+              <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 class="font-semibold text-gray-700 dark:text-gray-300 mb-3">
+                  Activities & Achievements:
+                </h4>
+                <div class="space-y-2">
+                  <div class="flex items-center">
+                    <i
+                      class="fas fa-certificate text-primary dark:text-primary-dark mr-3"
+                    ></i>
+                    <span class="text-gray-600 dark:text-gray-300"
+                      >PCAP Certificate</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CERTIFICATES SECTION ===== -->
+
+      <!-- ===== CONTACT SECTION ===== -->
+      <section
+        id="contact"
+        class="py-20 bg-gray-100 dark:bg-gray-900 contact-section"
+      >
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl font-bold text-center mb-8">
+            <span class="border-b-4 border-primary dark:border-primary-dark"
+              >Let's Connect
+            </span>
+          </h2>
+
+          <div
+            class="flex flex-col items-center md:items-start md:flex-row md:justify-center"
+          >
+            <div class="max-w-2xl text-center md:text-left">
+              <p
+                class="text-gray-600 dark:text-gray-300 mb-8 text-center text-xl"
+              >
+                Have a project in mind or want to discuss opportunities? I'm
+                always open to talking about creative ideas and new projects.
+              </p>
+
+              <div class="inline-block text-left space-y-6">
+                <div class="flex items-start">
+                  <div
+                    class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                  >
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium">Location</h4>
+                    <p class="text-gray-600 dark:text-gray-300">
+                      Damascus, Syria
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div
+                    class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                  >
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium">Email</h4>
+                    <a
+                      href="mailto:abdalah09941@gmail.com"
+                      class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-dark transition-colors"
+                      >abdalah09941@gmail.com</a
+                    >
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div
+                    class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4"
+                  >
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium">Phone</h4>
+                    <a
+                      href="tel:+963993051033"
+                      class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-dark transition-colors"
+                      >+963993051033</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 flex flex-col items-center md:items-start">
+                <h3 class="font-medium mb-4">Follow Me</h3>
+                <div class="flex justify-center md:justify-start space-x-6">
+                  <a
+                    href="https://www.linkedin.com/in/abdalah-hamwi"
+                    class="social-icon hover:scale-110 transition-all duration-300 transform"
+                  >
+                    <img
+                      src="https://www.iconpacks.net/icons/1/free-linkedin-icon-130-thumb.png"
+                      class="w-8 h-8"
+                    />
+                  </a>
+                  <a
+                    href="https://github.com/abdalahhamwi"
+                    class="social-icon text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:scale-110 transition-all duration-300 transform"
+                  >
+                    <i class="fab fa-github text-3xl"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/ABDALAH.Hamwi0"
+                    class="social-icon hover:scale-110 transition-all duration-300 transform"
+                  >
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/960px-Facebook_Logo_%282019%29.png"
+                      class="w-8 h-8"
+                    />
+                  </a>
+                  <a
+                    href="https://x.com/AbdalahHamwi98"
+                    class="social-icon hover:scale-110 transition-all duration-300 transform"
+                  >
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/X_icon.svg/2048px-X_icon.svg.png"
+                      class="w-8 h-8"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-white dark:bg-gray-800 py-8" role="contentinfo">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <a
+              href="#home"
+              class="text-2xl font-bold text-primary dark:text-primary-dark"
+              >Abdalah Hamwi</a
+            >
+            <p class="text-gray-600 dark:text-gray-300 mt-2">
+              © 2025 Abdalah Hamwi. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button
+      id="back-to-top"
+      class="fixed bottom-8 right-8 p-3 bg-primary dark:bg-primary-dark text-white rounded-full shadow-lg opacity-0 invisible transition-all duration-300 back-to-top"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
